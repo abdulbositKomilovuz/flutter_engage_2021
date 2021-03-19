@@ -12,15 +12,18 @@ class CustomTextForm extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return TextFormField(
-      onChanged: (value) {},
-      decoration: InputDecoration(
-          hintText: this.hint ?? '',
-          filled: true,
-          fillColor: Colors.grey.shade300,
-          border: UnderlineInputBorder(
-              borderSide: BorderSide.none,
-              borderRadius: BorderRadius.circular(12))),
+    return Container(
+      height: 45,
+      child: TextFormField(
+        onChanged: (value) {},
+        decoration: InputDecoration(
+            hintText: this.hint ?? '',
+            filled: true,
+            fillColor: Colors.grey.shade300,
+            border: UnderlineInputBorder(
+                borderSide: BorderSide.none,
+                borderRadius: BorderRadius.circular(12))),
+      ),
     );
   }
 }

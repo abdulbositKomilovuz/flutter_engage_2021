@@ -30,7 +30,7 @@ class LoginPage extends StatelessWidget {
                 SizedBox(height: 24),
                 CustomTextForm(hint: 'Email', onChanged: (email) {}),
                 SizedBox(height: 24),
-                CustomTextForm(hint: 'Email', onChanged: (email) {}),
+                CustomTextForm(hint: 'parol', onChanged: (email) {}),
                 SizedBox(height: 24),
                 CustomButton(),
               ],

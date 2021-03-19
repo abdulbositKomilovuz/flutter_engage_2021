@@ -10,7 +10,7 @@ class CustomButton extends StatelessWidget {
               RoundedRectangleBorder(borderRadius: BorderRadius.circular(8))),
           backgroundColor: MaterialStateProperty.all<Color>(Colors.green),
           padding: MaterialStateProperty.all<EdgeInsetsGeometry>(
-              EdgeInsets.all(12))),
+              EdgeInsets.all(22))),
       child: Center(
         child: Text('Tizimga kirish'),
       ),
